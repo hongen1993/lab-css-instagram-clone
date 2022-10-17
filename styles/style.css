@@ -3,8 +3,134 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.hero {
+  height: 85vh;
+  width: 100vw;
+}
+
+.top-background-img {
+  background: url(../images/bgtile.png);
+  object-fit: cover;
+  width: 100%;
+  height: 43%;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  top: 10vh;
+}
+
+.content-img {
+  width: 50vw;
+}
+
+.content-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: 15%;
+  width: 40%;
+}
+
+.main-content {
+  width: 50%;
+}
+
+.content-header {
+  width: 60%;
+  margin: 2em 0em;
+  display: flex;
+  align-items: center;
+}
+
+.insta-logo {
+  width: 50%;
+  margin: 1em 5em 0em 1em;
+}
+
+.content-header a {
+  border: 1px solid #06365f;
+  text-align: center;
+  padding: 6px 13px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(102 139 171);
+  border-radius: 3px;
+}
+
+.content-text {
+  background: url(../images/frame.png) no-repeat;
+  object-fit: cover;
+  padding: 2em;
+}
+
+.content a {
+  margin-right: 1em;
+}
+
+.content-text h2 {
+  color: #06365f;
+  font-size: 1.6em;
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+.the-text {
+  padding-bottom: 2em;
+}
+
+.the-text p {
+  width: 40%;
+}
+
+.the-text span {
+  font-weight: bold;
+}
+
+.footer {
+  height: 15vh;
+}
+
+.footer nav {
+  height: 100%;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-menu li {
+  list-style: none;
+  font-size: 12px;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.footer-menu a {
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(208deg 31% 48%);
+}
+
+.footer-menu a:hover {
+  color: #979797;
+}
+
+.footer-menu span {
+  color: #979797;
+  font-weight: 400;
 }
